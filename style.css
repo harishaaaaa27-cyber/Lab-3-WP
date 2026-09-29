@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f1e8;
+    color: #333333;
+    padding: 20px;
+}
+
+h1 {
+    color: #3d405b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #3d405b;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 12px 0;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    background-color: #3d405b;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+a:hover {
+    background-color: #55597a;
+}
+
+.book-info {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+}
+
+.book-info p {
+    line-height: 1.6;
+}

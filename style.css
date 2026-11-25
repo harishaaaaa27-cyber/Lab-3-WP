@@ -1,19 +1,31 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f1e8;
-    color: #333333;
-    padding: 20px;
+
+* {
+    box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8fc;
+    color: #51445f;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Headings */
+
 h1 {
-    color: #3d405b;
+    color: #8b6ba8;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    font-size: 30px;
 }
 
 h2 {
-    color: #3d405b;
+    color: #8b6ba8;
+    margin-bottom: 20px;
 }
+
+/* Book List */
 
 ul {
     list-style-type: none;
@@ -21,29 +33,82 @@ ul {
 }
 
 li {
-    margin: 12px 0;
+    margin: 15px 0;
 }
 
 a {
     display: block;
     text-decoration: none;
-    background-color: #3d405b;
-    color: white;
-    padding: 12px;
-    border-radius: 6px;
+    background-color: #eee4f7;
+    color: #71558c;
+    padding: 14px;
+    border-radius: 12px;
+    border: 1px solid #e1d1ef;
+    transition: 0.3s;
+    font-weight: bold;
 }
 
 a:hover {
-    background-color: #55597a;
+    background-color: #d9c5ed;
+    color: #51366d;
+    transform: translateX(4px);
 }
 
+/* Book Information Card */
+
 .book-info {
-    background-color: white;
-    padding: 25px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    border: 1px solid #f0dce9;
+    box-shadow: 0 5px 20px #eaddeb;
+}
+
+/* Book Details */
+
+.book-info h1 {
+    background-color: #f5e8f4;
+    padding: 18px;
+    border-radius: 12px;
+}
+
+.book-info h2 {
+    background-color: #fceaf1;
+    padding: 12px;
     border-radius: 10px;
-    border: 1px solid #dddddd;
+    margin-top: 25px;
 }
 
 .book-info p {
-    line-height: 1.6;
+    line-height: 1.8;
+    font-size: 15px;
+    color: #66566f;
+}
+
+.book-info strong {
+    color: #8b6ba8;
+}
+
+/* Horizontal Lines */
+
+hr {
+    border: none;
+    border-top: 1px solid #ead9eb;
+    margin: 25px 0;
+}
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    .book-info {
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
 }
